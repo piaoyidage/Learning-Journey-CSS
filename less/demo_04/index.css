@@ -1,0 +1,19 @@
+@charset 'utf-8';
+.border {
+  border: solid 1px red;
+}
+.box {
+  border: solid 1px red;
+  background-color: #f0f;
+}
+.box-2 {
+  border: solid 2px red;
+  background-color: pink;
+}
+.box-3 {
+  border-radius: 2px solid red;
+  -webkit-border-radius: 2px solid red;
+  -moz-border-radius: 2px solid red;
+  -ms-border-radius: 2px solid red;
+  background-color: #0ff;
+}

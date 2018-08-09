@@ -1,0 +1,56 @@
+@charset 'utf-8';
+
+
+.pos(a) {
+	position: absolute;
+}
+
+.pos(r) {
+	position: relative;
+}
+
+.pos(f) {
+	position: fixed;
+}
+
+
+// 匹配 布局定位
+.box {
+	.pos(f);
+}
+
+
+.triangle(top, @border-width: 6px, @border-color: red) {
+	border-style: solid;
+	border-width: @border-width;
+	border-color: transparent transparent @border-color transparent;
+}
+
+.triangle(bottom, @border-width: 6px, @border-color: red) {
+	border-style: solid;
+	border-width: @border-width;
+	border-color: @border-color transparent transparent transparent;
+}
+
+.triangle(left, @border-width: 6px, @border-color: red) {
+	border-style: solid;
+	border-width: @border-width;
+	border-color: transparent @border-color transparent transparent;
+}
+
+.triangle(right, @border-width: 6px, @border-color: red) {
+	border-style: solid;
+	border-width: @border-width;
+	border-color: transparent transparent transparent @border-color;
+}
+
+.triangle-ctx(@pos, @border-width: 6px, @border-color: red) {
+	width: 0;
+	height: 0;
+	.triangle(@pos, @border-width, @border-color)
+}
+
+.content {
+	.triangle-ctx(left, 100px, black);
+}
+

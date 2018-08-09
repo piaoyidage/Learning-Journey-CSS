@@ -1,0 +1,16 @@
+@charset 'utf-8';
+.wrap {
+  background-color: red;
+}
+.wrap a {
+  font-size: 13px;
+}
+.wrap a:hover {
+  color: #ff0;
+}
+.wrap span {
+  color: black;
+}
+.wrap > span {
+  color: #f00;
+}

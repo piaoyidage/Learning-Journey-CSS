@@ -1,0 +1,10 @@
+@charset 'utf-8';
+.bg {
+  color: red;
+}
+/**
+ * 字体
+ */
+.hi {
+  font-size: 16px;
+}

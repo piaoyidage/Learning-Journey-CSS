@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+
+.border {
+	border: solid 1px red;
+}
+
+// 混合
+.box {
+	.border;
+	background-color: #f0f;
+}
+
+
+// 混合-带参数
+.border-2(@border_width) {
+	border: solid @border_width red;
+}
+
+.box-2 {
+	.border-2(2px);
+	background-color: pink;
+}
+
+// 混合-默认参数
+.border-radius(@radius: 2px) {
+	border-radius: @radius solid red;
+	-webkit-border-radius: @radius solid red;
+	-moz-border-radius: @radius solid red;
+	-ms-border-radius: @radius solid red;
+}
+
+.box-3 {
+	.border-radius();
+	background-color: #0ff;
+}
