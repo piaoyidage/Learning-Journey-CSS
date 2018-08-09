@@ -17,8 +17,8 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 @height: 200px;
 
 .box {
-	width: @width;
-	height: @height;
+    width: @width;
+    height: @height;
 }
 ```
 
@@ -31,9 +31,9 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 @color: #ccc;
 
 .box {
-	width: @width;
-	height: @height;
-	color: @color + 10;
+    width: @width;
+    height: @height;
+    color: @color + 10;
 }
 ```
 
@@ -43,13 +43,13 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 
 ```less
 .border {
-	border: solid 1px red;
+    border: solid 1px red;
 }
 
 // 混合
 .box {
-	.border;
-	background-color: #f0f;
+    .border;
+    background-color: #f0f;
 }
 ```
 
@@ -58,21 +58,21 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 
 ```less
 .pos(a) {
-	position: absolute;
+    position: absolute;
 }
 
 .pos(r) {
-	position: relative;
+    position: relative;
 }
 
 .pos(f) {
-	position: fixed;
+    position: fixed;
 }
 
 
 // 匹配 布局定位
 .box {
-	.pos(f);
+    .pos(f);
 }
 ```
 
@@ -83,22 +83,22 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 
 ```less
 .wrap {
-	background-color: red;
+    background-color: red;
 
-	a {
-		font-size: 13px;
-		&:hover {
-			color: #ff0;
-		}
-	}
+    a {
+        font-size: 13px;
+        &:hover {
+            color: #ff0;
+        }
+    }
 
-	span {
-		color: black;
-	}
+    span {
+        color: black;
+    }
 
-	& > span {
-		color: #f00;
-	}
+    & > span {
+        color: #f00;
+    }
 }
 ```
 
@@ -106,15 +106,15 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 
 ```less
 .border(@border-style: solid, @border-width: 2px, @border-color: red){
-	border-radius: @arguments;
+    border-radius: @arguments;
 }
 
 .box {
-	.border;
+    .border;
 }
 
 .box-2 {
-	.border(dashed);
+    .border(dashed);
 }
 ```
 
