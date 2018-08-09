@@ -102,3 +102,19 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 }
 ```
 
+## demo_07 @arguments
+
+```less
+.border(@border-style: solid, @border-width: 2px, @border-color: red){
+	border-radius: @arguments;
+}
+
+.box {
+	.border;
+}
+
+.box-2 {
+	.border(dashed);
+}
+```
+

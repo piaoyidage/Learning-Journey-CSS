@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+.border(@border-style: solid, @border-width: 2px, @border-color: red){
+	border-radius: @arguments;
+}
+
+.box {
+	.border;
+}
+
+.box-2 {
+	.border(dashed);
+}

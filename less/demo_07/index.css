@@ -1,0 +1,7 @@
+@charset 'utf-8';
+.box {
+  border-radius: solid 2px red;
+}
+.box-2 {
+  border-radius: dashed 2px red;
+}
