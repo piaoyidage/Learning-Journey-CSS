@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>css实现告警提示动画</title>
+        <style>
+            
+            .ico {
+                position: fixed;
+                left: 50%;
+                top: 200px;
+                width: 120px;
+                height: 200px;
+                background: url(./images/ling.jpg) no-repeat center;
+                background-size: 100%;
+                animation: Tada 1s 2s both infinite;
+            }
+            
+            @keyframes Tada {
+                0% {
+                    transform: scale(1);
+                }
+                10%,
+                20% {
+                    transform: scale(0.9) rotate(-3deg);
+                }
+                30%,
+                50%,
+                70%,
+                90% {
+                    transform: scale(1.1) rotate(3deg);
+                }
+                40%,
+                60%,
+                80% {
+                    transform: scale(1.1) rotate(-3deg);
+                }
+                100% {
+                    transform: scale(1) rotate(0);
+                }
+            }
+        </style>
+    </head>
+ 
+    <body>
+            <div class="ico"></div>
+        </div>
+    </body> 
+</html>
