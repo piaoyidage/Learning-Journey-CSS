@@ -2,6 +2,11 @@
 
 CSS 相关
 
+## animation
+
+👉 [CSS 实现告警提示动画](https://github.com/piaoyidage/Learning-Journey-CSS/tree/master/animation/demo-01)
+
+
 ## less
 
 less 相关
@@ -18,6 +23,13 @@ browser-sync start --server --files "**/*.css, **/*.less, **/*.html"
 ```
 
 更多介绍参考官网 [Browsersync](http://www.browsersync.cn/)
+
+## other
+
+👉 [学习 inherit/initial/unset](https://github.com/piaoyidage/Learning-Journey-CSS/tree/master/other/demo-01)
+
+👉 [区分 word-break/word-wrap](https://github.com/piaoyidage/Learning-Journey-CSS/tree/master/other/demo-02)
+
 
 ## 参考
 
