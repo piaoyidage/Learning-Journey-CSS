@@ -1,17 +1,10 @@
 # Learning-Journey-CSS
 
-CSS 相关
-
 ## animation
 
 👉 [CSS 实现告警提示动画](https://github.com/piaoyidage/Learning-Journey-CSS/tree/master/animation/demo-01)
 
-
-## less
-
-less 相关
-
-## Browsersync
+## browsersync
 
 Browsersync 能让浏览器实时、快速响应您的文件更改（html、js、css、sass、less等）并自动刷新页面。
 
@@ -23,6 +16,10 @@ browser-sync start --server --files "**/*.css, **/*.less, **/*.html"
 ```
 
 更多介绍参考官网 [Browsersync](http://www.browsersync.cn/)
+
+## less
+
+👉 [学习 less](https://github.com/piaoyidage/Learning-Journey-CSS/tree/master/less)
 
 ## other
 
