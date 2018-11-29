@@ -2,12 +2,12 @@
 
 使用 Sublime Text 3，安装 Less2Css 插件，自动将 less 文件转成 css 文件。
 
-## demo_01 注释
+## [注释](https://github.com/piaoyidage/Learning-Journey-CSS/blob/master/less/demo-01/index.less)
 
 less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译成 css 文件后，前一种注释将会被忽略，不会被编译。
 
 
-## demo_02 变量
+## [变量](https://github.com/piaoyidage/Learning-Journey-CSS/blob/master/less/demo-02/index.less)
 
 使用 @变量名: 属性值，可以定义一个变量：
 
@@ -22,7 +22,7 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 }
 ```
 
-## demo_03 运算
+## [运算](https://github.com/piaoyidage/Learning-Journey-CSS/blob/master/less/demo-03/index.less)
 
 ```less
 // 运算
@@ -37,7 +37,7 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 }
 ```
 
-## demo_04 混合(mixin)
+## [混合(mixin)](https://github.com/piaoyidage/Learning-Journey-CSS/blob/master/less/demo-04/index.less)
 
 简单的混合：
 
@@ -54,7 +54,7 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 ```
 
 
-## demo_05 匹配模式
+## [匹配模式](https://github.com/piaoyidage/Learning-Journey-CSS/blob/master/less/demo-05/index.less)
 
 ```less
 .pos(a) {
@@ -77,7 +77,7 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 ```
 
 
-## demo_06 嵌套
+## [嵌套](https://github.com/piaoyidage/Learning-Journey-CSS/blob/master/less/demo-06/index.less)
 
 嵌套减少了很多代码量，非常方便，此外 & 代表当前父亲选择器。
 
@@ -102,7 +102,7 @@ less 里面提供两种注释方式，一种是 //, 另一种是 /****/, 编译�
 }
 ```
 
-## demo_07 @arguments
+## [@arguments](https://github.com/piaoyidage/Learning-Journey-CSS/blob/master/less/demo-07/index.less)
 
 ```less
 .border(@border-style: solid, @border-width: 2px, @border-color: red){
