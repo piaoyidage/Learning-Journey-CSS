@@ -40,7 +40,7 @@ normal | break-word
 
 **表现与 word-break 中的 break-word 一致，目前浏览器均支持**
 
-从实际使用来看，有些情况下 word-wrap: break-word 会失效，[word-wrap not working](https://codepen.io/piaoyidage/pen/dQgbEN)
+从实际使用来看，有些情况下 word-wrap: break-word 会失效，详见[word-wrap not working](https://codepen.io/piaoyidage/pen/dQgbEN)
 
 **建议 word-break 和 word-wrap 一起使用**
 
@@ -49,6 +49,8 @@ word-break: break-word;
 word-wrap: break-word;
 ```
 
+## 参考
+1. [caniuse word-break](https://caniuse.com/#search=word-break)
 
 
 
