@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>align-items 导致 width 超出父元素</title>
+    <style>
+        .wrap {
+            width: 400px;
+            border: 1px solid #0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .options {
+            text-align: center;
+            max-width: 400px;
+        }
+
+        .item {
+            display: inline-block;
+            width: 160px;
+            height: 40px;
+            border: 1px solid #f00;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="options">
+            <div class="item">你好，我是Ranger</div>
+            <div class="item">你好，我是Ranger</div>
+            <div class="item">你好，我是Ranger</div>
+            <div class="item">你好，我是Ranger</div>
+            <div class="item">你好，我是Ranger</div>
+            <div class="item">你好，我是Ranger</div>
+        </div>
+        <button>submit</button>
+    </div>
+</body>
+</html>
